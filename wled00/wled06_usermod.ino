@@ -14,7 +14,7 @@ TaskHandle_t FFT_Task;
 #ifdef ESP8266
 #define MIC_PIN   A0
 #else
-#define MIC_PIN   36 //  Changed to directly naming pin since ESP32 has multiple ADCs 8266: A0  ESP32: 36(ADC1_0) Analog port for microphone
+#define MIC_PIN   34 //  Changed to directly naming pin since ESP32 has multiple ADCs 8266: A0  ESP32: 36(ADC1_0) Analog port for microphone
 #endif
 
 // As defined in wled00.ino
